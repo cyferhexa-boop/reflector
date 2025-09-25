@@ -17,7 +17,7 @@ Made by **NRS**
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/nrs/reflector.git
+git clone [https://github.com/nrs/reflector.git](https://github.com/cyferhexa-boop/reflector.git)
 cd reflector
 chmod +x install.sh
 ./install.sh
@@ -144,30 +144,6 @@ URL Sources:
   AlienVault OTX: 370 URLs
 ======================================================================
 ```
-
-## 🏗️ Project Structure
-
-```
-reflector/
-├── reflector.py              # Main entry point
-├── config.py                 # Configuration and constants
-├── install.sh               # Installation script
-├── requirements.txt         # Dependencies
-├── core/                    # Core functionality
-│   ├── wayback_fetcher.py   # Wayback Machine integration
-│   ├── url_collector.py     # Multi-source URL collection
-│   ├── url_sources.py       # Additional URL sources
-│   ├── url_filter.py        # URL filtering and deduplication
-│   └── scanner.py           # Vulnerability scanning engine
-└── utils/                   # Utilities
-    ├── banner.py            # Banner display
-    ├── cleanup.py           # File cleanup
-    ├── logger.py            # Professional logging
-    ├── output.py            # Output formatting
-    └── stats.py             # Statistics tracking
-```
-
-## 🔧 Advanced Usage
 
 ### Custom Payloads
 ```bash
